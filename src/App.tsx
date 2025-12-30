@@ -2,8 +2,10 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Top from './components/Top'
 import Concept from './components/Concept'
-
-
+import Sejutsu from './components/Sejutsu'
+import Recommend from './components/Recommend'
+import Background from './components/Background'
+import About from './components/About'
 
 function App(): React.ReactElement {
   return (
@@ -14,11 +16,12 @@ function App(): React.ReactElement {
             <>
               <Top />
               <Concept />
+              <Sejutsu />
+              <Recommend />
+              <Background />
             </>
           } />
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       {/* <Footer /> */}
