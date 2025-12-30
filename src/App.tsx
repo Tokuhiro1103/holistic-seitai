@@ -6,6 +6,8 @@ import Sejutsu from './components/Sejutsu'
 import Recommend from './components/Recommend'
 import Background from './components/Background'
 import About from './components/About'
+import Footer from './components/Footer'
+import Layout from './components/Layout'
 
 function App(): React.ReactElement {
   return (
@@ -15,16 +17,23 @@ function App(): React.ReactElement {
           <Route path="/" element={
             <>
               <Top />
-              <Concept />
-              <Sejutsu />
-              <Recommend />
-              <Background />
+                <Layout>
+                  <Concept />
+                  <Sejutsu />
+                  <Recommend />
+                  <Background />
+                </Layout>
+              
             </>
           } />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={
+              <Layout>
+                <About />
+              </Layout>
+          } />
         </Routes>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

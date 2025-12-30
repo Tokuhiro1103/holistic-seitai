@@ -4,8 +4,7 @@ import aboutImage2 from '../assets/photos/img_about2.jpg'
 
 function About(): React.ReactElement {
   return (
-    <main className="w-full bg-gray-100 py-16 md:py-24">
-      <div className="max-w-5xl mx-auto px-6 md:px-8 lg:px-10 space-y-24">
+    <div className="space-y-24">
         {/* Section 1: 自己紹介 + 写真1 */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
           {/* Left Text */}
@@ -63,8 +62,7 @@ function About(): React.ReactElement {
             />
           </div>
         </section>
-      </div>
-    </main>
+    </div>
   )
 }
 
