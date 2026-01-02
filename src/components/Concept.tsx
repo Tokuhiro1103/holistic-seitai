@@ -13,17 +13,17 @@ function Concept(): React.ReactElement {
       {/* Content - Two Column Layout */}
       <div className="flex flex-col md:flex-row mt-16">
         {/* Left Section - Text Area */}
-        <div className="w-full md:w-2/5 pr-8 md:pr-12 lg:pr-16 flex flex-col justify-center">
+        <div className="w-full md:w-1/2 pr-8 md:pr-12 lg:pr-16 flex flex-col justify-center">
           <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3">
             <p>人の健康とは、
-            ただ病気がないことでも、痛みが取れることだけでもないと、僕は考えています。</p>
-            <p>体、心、感覚、そしてその人自身の在り方。
-それらが調和し、自然にエネルギーが巡っている状態。
-それが「健やかさ」だと思っています。</p>
-            <p>現代は便利で情報も多い一方で、
-知らず知らずのうちに、自分の体や心の声から離れてしまいやすい時代です。
+            ただ病気がないことでも痛みが取れることだけでもないと僕は考えています。
+            体・心・感覚、そしてその人自身の在り方、
+それらが調和し自然にエネルギーが巡っている状態、
+それが「健やかさ」だと思っています。
+            現代は便利で情報も多い一方で、
+知らず知らずのうちに自分の体や心の声から離れてしまいやすい時代です。
 不調があっても、「忙しいから」「仕方ないから」と後回しにしてしまう。
-でも体は、ちゃんとサインを出し続けています。</p>
+でも体はちゃんとサインを出し続けています。</p>
 <p>僕の整体「ホリスティック清体」は、
 そのサインにもう一度気づくための時間です。</p>
           </div>
@@ -36,11 +36,11 @@ function Concept(): React.ReactElement {
         </div>
 
         {/* Right Section - Image */}
-        <div className="w-[550px] h-[270px]">
+        <div className="w-full md:w-1/2 aspect-[550/270]">
           <img 
             src={conceptImage} 
             alt="自然と調和した整体" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
       </div>
