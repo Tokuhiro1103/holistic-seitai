@@ -1,43 +1,45 @@
 import React from 'react'
-import recommendImage from '../assets/photos/img-recommmend.jpg'
 
 function Recommend(): React.ReactElement {
   const recommendations = [
-    'とにかく痛みを早く軽くしたい',
-    'もっとパフォーマンスを上げたい',
-    '古い症状から解放されたい',
-    '古い症状を繰り返している'
+    '慢性的な疲れや違和感がある',
+    '呼吸が浅い、眠りが浅いと感じる',
+    '病院に行くほどではないけれど、何かが整っていない感覚がある',
+    '体だけでなく、心も含めて整えたい',
+    '自分の状態をきちんと理解したい'
   ]
 
   return (
-    <div className="flex flex-col md:flex-row mt-32">
-          {/* Left Section - Text Area */}
-          <div className="w-full md:w-2/5 bg-white p-8 md:p-12 lg:p-16 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-8">
-              こんな方におすすめです
-            </h2>
-            <div className="space-y-4">
-              {recommendations.map((item, index) => (
-                <div 
-                  key={index}
-                  className="flex items-center bg-gray-50 p-4 rounded-md"
-                >
-                  <div className="w-4 h-4 bg-gray-800 rounded-sm mr-4 flex-shrink-0"></div>
-                  <p className="text-gray-700 text-base md:text-lg">{item}</p>
-                </div>
-              ))}
-            </div>
+    <div className="mt-32 flex justify-center">
+      {/* Card Container */}
+      <div className="w-full max-w-3xl bg-amber-50 border border-amber-200 rounded-lg p-8 md:p-12 lg:p-16">
+        {/* Title Section */}
+        <div className="text-center mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2">
+            こんな方におすすめです
+          </h2>
+          <div className="flex items-center justify-center my-4">
+            <div className="flex-1 border-t border-gray-300"></div>
+            
+            <div className="flex-1 border-t border-gray-300"></div>
           </div>
-
-          {/* Right Section - Image */}
-          <div className="w-full md:w-3/5">
-            <img 
-              src={recommendImage} 
-              alt="おすすめの方" 
-              className="w-full h-full object-cover"
-            />
-          </div>
+          
         </div>
+
+        {/* List Section */}
+        <div className="space-y-3 mt-8">
+          {recommendations.map((item, index) => (
+            <div 
+              key={index}
+              className="flex items-start"
+            >
+              
+              <p className="text-gray-700 text-base md:text-lg flex-1">{item}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }
 

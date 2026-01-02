@@ -3,7 +3,7 @@ import backgroundImage from '../assets/photos/img_background.jpg'
 
 function Background(): React.ReactElement {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row mt-32">
           {/* Left Section - Image */}
           <div className="w-full md:w-2/5">
             <img 
