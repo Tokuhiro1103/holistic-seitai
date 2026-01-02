@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Top from './components/Top'
 import Concept from './components/Concept'
 import Sejutsu from './components/Sejutsu'
+import Why from './components/Why'
 import Recommend from './components/Recommend'
 import Background from './components/Background'
 import About from './components/About'
@@ -20,6 +21,7 @@ function App(): React.ReactElement {
                 <Layout>
                   <Concept />
                   <Sejutsu />
+                  <Why />
                   <Recommend />
                   <Background />
                 </Layout>
