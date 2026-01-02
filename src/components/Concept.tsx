@@ -4,7 +4,9 @@ import conceptImage from '../assets/photos/img_concept.jpg'
 
 function Concept(): React.ReactElement {
   return (
-    <div className="flex flex-col md:flex-row mt-16">
+    
+    <div className="flex flex-col md:flex-row mt-64">
+        
           {/* Left Section - Text Area */}
           <div className="w-full md:w-2/5 bg-gray-100 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
@@ -25,7 +27,7 @@ function Concept(): React.ReactElement {
           </div>
 
           {/* Right Section - Image */}
-          <div className="w-full md:w-3/5">
+          <div className="w-[550px] h-[270px]">
             <img 
               src={conceptImage} 
               alt="自然と調和した整体" 
