@@ -24,9 +24,8 @@ function Background(): React.ReactElement {
                 実績
               </h3>
               <div className="text-gray-700 text-base md:text-lg space-y-2">
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
+                <p>日本の実績</p>
+                <p>オーストラリアの実績</p>                
               </div>
             </div>
 
@@ -35,9 +34,9 @@ function Background(): React.ReactElement {
                 背景
               </h3>
               <div className="text-gray-700 text-base md:text-lg space-y-2">
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
+                <p>ニュージーランドの活動とか</p>
+                <p>ニュージーランドの活動とか</p>
+                <p>ニュージーランドの活動とか</p>
               </div>
             </div>
 

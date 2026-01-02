@@ -19,9 +19,9 @@ function Sejutsu(): React.ReactElement {
               施術内容
             </h2>
             <div className="text-gray-700 text-base md:text-lg space-y-4">
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
+              <p>こんな施術をしています、な文章</p>
+              <p>こんな施術をしています、な文章</p>
+              <p>こんな施術をしています、な文章</p>
             </div>
           </div>
         </div>

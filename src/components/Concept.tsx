@@ -8,12 +8,13 @@ function Concept(): React.ReactElement {
           {/* Left Section - Text Area */}
           <div className="w-full md:w-2/5 bg-gray-100 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              自然と調和した整体を目指して
+              自己紹介とコンセプト<br />
+              例：自然と調和した整体を目指して
             </h2>
             <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3">
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
+              <p>自己紹介的な文章</p>
+              <p>自己紹介的な文章</p>
+              <p>活動のコンセプト的な文章</p>
             </div>
             <Link
               to="/about"

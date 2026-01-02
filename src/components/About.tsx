@@ -14,9 +14,9 @@ function About(): React.ReactElement {
               <p className="text-xl md:text-2xl font-semibold">YUKI</p>
             </div>
             <div className="text-sm md:text-base space-y-2">
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
-              <p>ニュージーランドの器清体がどうたら</p>
+              <p>詳しい自己紹介を書く</p>
+              <p>詳しい自己紹介を書く</p>
+              <p>詳しい自己紹介を書く</p>
             </div>
           </div>
 
@@ -37,18 +37,18 @@ function About(): React.ReactElement {
             <div className="space-y-3">
               <h2 className="text-base md:text-lg font-semibold">なぜこの清体をしているか</h2>
               <div className="text-sm md:text-base space-y-2">
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
+                <p>活動の想いを書く</p>
+                <p>活動の想いを書く</p>
+                <p>活動の想いを書く</p>
               </div>
             </div>
 
             <div className="space-y-3">
               <h2 className="text-base md:text-lg font-semibold">バックグラウンド</h2>
               <div className="text-sm md:text-base space-y-2">
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
-                <p>ニュージーランドの器清体がどうたら</p>
+                <p>日本の活動</p>
+                <p>オーストラリアの活動</p>
+                <p>ニュージーランドの活動</p>
               </div>
             </div>
           </div>

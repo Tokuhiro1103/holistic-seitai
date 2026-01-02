@@ -23,7 +23,7 @@ function App(): React.ReactElement {
                   <Recommend />
                   <Background />
                 </Layout>
-              
+
             </>
           } />
           <Route path="/about" element={
