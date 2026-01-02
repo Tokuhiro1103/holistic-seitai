@@ -9,6 +9,8 @@ import Background from './components/Background'
 import About from './components/About'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
+import Contact from './components/Contact'
+
 
 function App(): React.ReactElement {
   return (
@@ -24,6 +26,7 @@ function App(): React.ReactElement {
                   <Why />
                   <Recommend />
                   <Background />
+                  <Contact />
                 </Layout>
 
             </>
