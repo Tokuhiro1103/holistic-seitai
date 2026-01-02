@@ -10,7 +10,7 @@ function Recommend(): React.ReactElement {
   ]
 
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row mt-32">
           {/* Left Section - Text Area */}
           <div className="w-full md:w-2/5 bg-white p-8 md:p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-8">
