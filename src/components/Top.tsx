@@ -4,11 +4,10 @@ import topImage from '../assets/photos/img_top.png'
 function Top(): React.ReactElement {
   return (
     <section 
-      className="relative w-full h-screen flex items-center justify-start px-8 md:px-16 lg:px-24 -mt-16"
+      className="relative w-full h-screen flex items-center justify-start px-8 md:px-16 lg:px-24 -mt-16 bg-position-right-center"
       style={{
         backgroundImage: `url(${topImage})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}
     >

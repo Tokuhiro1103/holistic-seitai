@@ -13,11 +13,11 @@ function Background(): React.ReactElement {
       {/* Content - Two Column Layout */}
       <div className="flex flex-col md:flex-row mt-16">
         {/* Left Section - Image */}
-        <div className="w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270]">
+        <div className="w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270] flex items-center justify-center">
           <img 
             src={profileImage} 
             alt="私について" 
-            className="w-full h-full object-contain"
+            className="max-w-full max-h-full object-contain shadow-md block"
           />
         </div>
 
