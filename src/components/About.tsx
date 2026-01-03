@@ -35,11 +35,11 @@ function About(): React.ReactElement {
           </div>
 
           {/* Right Image */}
-          <div className="order-1 md:order-2">
+          <div className="order-1 md:order-2 aspect-[550/270]">
             <img
               src={aboutImage1}
               alt="自己紹介 YUKI"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         </section>
@@ -69,22 +69,15 @@ function About(): React.ReactElement {
               </div>
             </div>
 
-            <div className="space-y-3">
-              <h2 className="text-base md:text-lg font-semibold">バックグラウンド</h2>
-              <div className="text-sm md:text-base space-y-2">
-                <p>日本の活動</p>
-                <p>オーストラリアの活動</p>
-                <p>ニュージーランドの活動</p>
-              </div>
-            </div>
+            
           </div>
 
           {/* Right Image */}
-          <div>
+          <div className="aspect-[550/270]">
             <img
               src={aboutImage2}
               alt="バックグラウンド"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         </section>
