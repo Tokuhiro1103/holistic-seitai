@@ -160,6 +160,29 @@ function About(): React.ReactElement {
           />
         </div>
       </section>
+
+      {/* Section 4: 僕が"整える"という言葉を使う理由 */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        {/* Left Text */}
+        <div className="space-y-6 text-gray-800">
+          <h2 className="text-2xl md:text-3xl font-bold">ニュージーランドでの活動</h2>
+          <div className="text-sm md:text-base space-y-3">
+            <p>現在はニュージーランドを拠点に、
+旅をしながら整体師として活動。
+その人の体・心・環境を一つの"全体"として捉える
+ホリスティック清体を提供している。</p>
+          </div>
+        </div>
+
+        {/* Right Image */}
+        <div className="aspect-[550/270]">
+          <img
+            src={aboutImage2}
+            alt="整えるという言葉を使う理由"
+            className="w-full h-full object-contain"
+          />
+        </div>
+      </section>
     </div>
   )
 }
