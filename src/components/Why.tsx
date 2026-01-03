@@ -5,12 +5,12 @@ function Why(): React.ReactElement {
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-8 text-center">
+      <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center">
         なぜこの整体をしているのか
       </h2>
       
       {/* Content - Two Column Layout */}
-      <div className="flex flex-col md:flex-row mt-16">
+      <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Text Area */}
         <div className="w-full md:w-1/2 pr-8 md:pr-12 lg:pr-16 flex flex-col justify-center">
           <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3">

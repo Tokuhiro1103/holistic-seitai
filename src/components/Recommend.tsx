@@ -13,10 +13,10 @@ function Recommend(): React.ReactElement {
   return (
     <div className="mt-32 flex justify-center">
       {/* Card Container */}
-      <div className="w-full max-w-3xl bg-amber-50 border border-amber-200 rounded-lg p-8 md:p-12 lg:p-16">
+      <div className="w-full max-w-3xl bg-amber-50 border border-amber-200 p-8 md:p-12 lg:p-16">
         {/* Title Section */}
         <div className="text-center mb-6">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2">
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
             こんな方におすすめです
           </h2>
           <div className="flex items-center justify-center my-4">

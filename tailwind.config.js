@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Noto Sans JP', 'sans-serif'],
+        serif: ['Noto Serif JP', 'serif'],
       },
       keyframes: {
         blob: {

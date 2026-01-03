@@ -6,12 +6,12 @@ function Background(): React.ReactElement {
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-8 text-center">
+      <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 text-center">
         私について
       </h2>
       
       {/* Content - Two Column Layout */}
-      <div className="flex flex-col md:flex-row mt-16">
+      <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Image */}
         <div className="w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270] flex items-center justify-center">
           <img 

@@ -5,12 +5,12 @@ function Sejutsu(): React.ReactElement {
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 text-center">
+      <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 text-center">
         施術内容
       </h2>
       
       {/* Content - Two Column Layout */}
-      <div className="flex flex-col md:flex-row mt-16">
+      <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Image */}
         <div className="w-full md:w-1/2 aspect-[550/270] order-2 md:order-1">
           <img 
