@@ -10,6 +10,8 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
 import Contact from './components/Contact'
+import Price from './components/Price'
+import Question from './components/Question'
 
 
 function App(): React.ReactElement {
@@ -34,6 +36,12 @@ function App(): React.ReactElement {
           <Route path="/about" element={
               <Layout>
                 <About />
+              </Layout>
+          } />
+          <Route path="/price" element={
+              <Layout>
+                <Price />
+                <Question />
               </Layout>
           } />
         </Routes>

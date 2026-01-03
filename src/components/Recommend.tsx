@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Recommend(): React.ReactElement {
   const recommendations = [
@@ -37,6 +38,16 @@ function Recommend(): React.ReactElement {
               <p className="text-gray-700 text-base md:text-lg flex-1">{item}</p>
             </div>
           ))}
+        </div>
+
+        {/* Button Section */}
+        <div className="mt-8 text-center">
+          <Link
+            to="/price"
+            className="inline-block bg-lime-500 hover:bg-lime-600 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-200"
+          >
+            プランを見る
+          </Link>
         </div>
       </div>
     </div>
