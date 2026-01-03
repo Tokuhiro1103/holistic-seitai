@@ -31,7 +31,7 @@ function Why(): React.ReactElement {
         </div>
 
         {/* Right Section - Image */}
-        <div className="w-full md:w-1/2 aspect-[550/270]">
+        <div className="w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270]">
           <img 
             src={recommendImage} 
             alt="なぜこの整体をしているのか" 
