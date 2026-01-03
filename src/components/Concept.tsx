@@ -13,16 +13,16 @@ function Concept(): React.ReactElement {
       {/* Content - Two Column Layout */}
       <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Text Area */}
-        <div className="w-full md:w-1/2 pr-8 md:pr-12 lg:pr-16 flex flex-col justify-center">
-          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3">
+        <div className="w-full md:w-1/2 md:pr-12 lg:pr-16 flex flex-col justify-center">
+          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3 text-center md:text-left">
             <p>人の健康とは、
-            ただ病気がないことでも痛みが取れることだけでもないと僕は考えています。
+            ただ病気がないことでも痛みが取れることだけでもないと僕は考えています。<br />
             体・心・感覚、そしてその人自身の在り方、
 それらが調和し自然にエネルギーが巡っている状態、
-それが「健やかさ」だと思っています。
+それが「健やかさ」だと思っています。<br />
             現代は便利で情報も多い一方で、
-知らず知らずのうちに自分の体や心の声から離れてしまいやすい時代です。
-不調があっても、「忙しいから」「仕方ないから」と後回しにしてしまう。
+知らず知らずのうちに自分の体や心の声から離れてしまいやすい時代です。<br />
+不調があっても、「忙しいから」「仕方ないから」と後回しにしてしまう。<br />
 でも体はちゃんとサインを出し続けています。</p>
 <p>僕の整体「ホリスティック清体」は、
 そのサインにもう一度気づくための時間です。</p>

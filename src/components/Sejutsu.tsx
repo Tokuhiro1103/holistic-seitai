@@ -21,18 +21,18 @@ function Sejutsu(): React.ReactElement {
         </div>
 
         {/* Right Section - Text Area */}
-        <div className="w-full md:w-1/2 pl-8 md:pl-12 lg:pl-16 flex flex-col justify-center order-1 md:order-2 mb-8 md:mb-0">
-          <div className="text-gray-700 text-base md:text-lg space-y-4">
+        <div className="w-full md:w-1/2 md:pl-12 lg:pl-16 flex flex-col justify-center order-1 md:order-2 mb-8 md:mb-0">
+          <div className="text-gray-700 text-base md:text-lg space-y-4 text-center md:text-left">
             <p>ホリスティック清体は、
 体の歪み・硬さ・呼吸・巡りを丁寧に観察しながら
-その人の体と心の癖に合わせて整えていく施術です。
-強く揉んだりバキバキ鳴らしたりはしません。
-必要な場所に必要な分だけ触れ、即効性よりも「自分の状態に気づくこと」を大切にしています。
+その人の体と心の癖に合わせて整えていく施術です。<br />
+強く揉んだりバキバキ鳴らしたりはしません。<br />
+必要な場所に必要な分だけ触れ、即効性よりも「自分の状態に気づくこと」を大切にしています。<br />
 施術を受けた方からは
 「呼吸が深くなった」
 「体だけでなく気持ちも軽くなった」
 「眠りの質が変わった」
-そんな声をよくいただきます。
+そんな声をよくいただきます。<br />
 体と心は切り離せません。
 どちらかが疲れるともう片方にも必ず影響が出ます。
 だからこそ、部分ではなく“全体”を整える視点を大切にしています。</p>

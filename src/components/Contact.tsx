@@ -4,7 +4,7 @@ function Contact(): React.ReactElement {
   return (
     <div className="mt-8 py-16">
       <div className="text-center">
-        <p className="text-lg md:text-xl text-gray-700 mb-6">
+        <p className="text-lg md:text-xl text-gray-700 mb-6 text-bold">
           ご覧いただきありがとうございます
         </p>
         <p className="text-base md:text-lg text-gray-600 mb-8">
