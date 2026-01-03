@@ -1,10 +1,14 @@
 import React from 'react'
 import aboutImage1 from '../assets/photos/img_about1.jpg'
 import aboutImage2 from '../assets/photos/img_about2.jpg'
+import aboutImage3 from '../assets/photos/img_about3.jpg'
+import aboutImage4 from '../assets/photos/img_about4.jpg'
+import aboutImage5 from '../assets/photos/img_about5.jpg'
+import aboutImage6 from '../assets/photos/img_about6.jpg'
 
 function About(): React.ReactElement {
   return (
-    <div className="space-y-24">
+    <div className="space-y-24 mb-16">
       {/* Section 1: 自己紹介 + 写真1 */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Text */}
@@ -22,7 +26,7 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="order-1 md:order-2 aspect-[550/270]">
+        <div className="order-1 md:order-2 aspect-[350/270]">
           <img
             src={aboutImage1}
             alt="自己紹介 YUKI"
@@ -31,52 +35,10 @@ function About(): React.ReactElement {
         </div>
       </section>
 
-      {/* Thematic Summary Boxes */}
-      <section className="space-y-8">
-        {/* Decorative Divider */}
-        <div className="flex items-center justify-center">
-          <svg 
-            className="w-24 md:w-32 h-6 text-gray-300" 
-            viewBox="0 0 100 20" 
-            fill="none" 
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path 
-              d="M10 10 Q 30 5, 50 10 T 90 10" 
-              stroke="currentColor" 
-              strokeWidth="1.5" 
-              fill="none"
-            />
-          </svg>
-        </div>
-
-        {/* Three Boxes */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Box 1 */}
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 text-center">
-            <div className="text-4xl mb-4">🌿</div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">自然との原体験</h3>
-            <p className="text-sm text-gray-600">自然の中で育ち、人と自然のつながりを体感</p>
-          </div>
-
-          {/* Box 2 */}
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 text-center">
-            <div className="text-4xl mb-4">✈️</div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">旅と学び</h3>
-            <p className="text-sm text-gray-600">インド・日本・オーストラリアを巡る経験</p>
-          </div>
-
-          {/* Box 3 */}
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 text-center">
-            <div className="text-4xl mb-4">💚</div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">身体と心の理解</h3>
-            <p className="text-sm text-gray-600">「体だけ変えても人は変わらない」という実感</p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Section 2: 自然の中で育った原体験 */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start ">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
           <h2 className="text-2xl md:text-3xl font-bold">インドでの経験</h2>
@@ -87,9 +49,9 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="aspect-[550/270]">
+        <div className="aspect-[465/270]">
           <img
-            src={aboutImage2}
+            src={aboutImage3}
             alt="自然の中で育った原体験"
             className="w-full h-full object-contain"
           />
@@ -108,9 +70,9 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="aspect-[550/270]">
+        <div className="aspect-[500/270]">
           <img
-            src={aboutImage2}
+            src={aboutImage4}
             alt="旅と学びの時"
             className="w-full h-full object-contain"
           />
@@ -128,9 +90,9 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="aspect-[550/270]">
+        <div className="aspect-[400/270]">
           <img
-            src={aboutImage2}
+            src={aboutImage5}
             alt="整えるという言葉を使う理由"
             className="w-full h-full object-contain"
           />
@@ -152,7 +114,7 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="aspect-[550/270]">
+        <div className="aspect-[360/270]">
           <img
             src={aboutImage2}
             alt="整えるという言葉を使う理由"
@@ -175,9 +137,9 @@ function About(): React.ReactElement {
         </div>
 
         {/* Right Image */}
-        <div className="aspect-[550/270]">
+        <div className="aspect-[360/270]">
           <img
-            src={aboutImage2}
+            src={aboutImage6}
             alt="整えるという言葉を使う理由"
             className="w-full h-full object-contain"
           />
