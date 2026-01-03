@@ -12,13 +12,13 @@ function Top(): React.ReactElement {
       }}
     >
       <div className="relative z-10 text-white">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
           
           
           本来の姿に戻る
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl drop-shadow-md">
-          自然と調和した清体
+          YUKI UNOのウェブサイト
         </p>
       </div>
     </section>

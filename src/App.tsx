@@ -12,11 +12,13 @@ import Layout from './components/Layout'
 import Contact from './components/Contact'
 import Price from './components/Price'
 import Question from './components/Question'
+import Navigation from './components/Navigation'
 
 
 function App(): React.ReactElement {
   return (
     <div className="min-h-screen from-gray-50 via-white to-blue-50">
+      <Navigation />
       <main className="pt-16">
         <Routes>
           <Route path="/" element={

@@ -33,8 +33,8 @@ function Background(): React.ReactElement {
             to="/about"
             className="text-gray-800 text-base md:text-lg font-medium hover:text-gray-600 transition-colors duration-200 w-fit flex items-center gap-2"
           >
-            <span>→</span>
-            <span>詳しく見る</span>
+            <span className="text-blue-500">→</span>
+            <span className="text-blue-500">詳しく見る</span>
           </Link>
         </div>
       </div>
