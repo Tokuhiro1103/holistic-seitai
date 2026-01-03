@@ -49,9 +49,30 @@ function Price(): React.ReactElement {
     <div className="py-16 md:py-24">
       {/* Title Section */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
           施術プラン・料金
         </h2>
+        <div className="flex items-center justify-center my-4">
+          <svg 
+            className="w-32 md:w-48 h-4 text-amber-300" 
+            viewBox="0 0 200 20" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path 
+              d="M10 10 Q 50 5, 90 10 T 170 10" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              fill="none"
+            />
+            <path 
+              d="M10 10 Q 50 15, 90 10 T 170 10" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              fill="none"
+            />
+          </svg>
+        </div>
         <p className="text-lg md:text-xl text-gray-600 mt-2">
           Plans & Pricing
         </p>
