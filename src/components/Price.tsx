@@ -7,10 +7,8 @@ function Price(): React.ReactElement {
       name: 'Aプラン：40分',
       price: '$40',
       services: [
-        '事前カウンセリング',
-        '呼吸・巡り・姿勢を整えるプロ施術',
-        '凝り・不調の原因を丁寧にアプローチ',
-        '日常の疲れや緊張を確実にほぐす'
+        '事前カウンセリング込み。',
+        '呼吸・巡り・姿勢を整えるプロ施術で凝りや不調の原因を丁寧にアプローチし、日常の疲れや緊張を確実にほぐしていきます。'
       ],
 
     },
@@ -18,9 +16,9 @@ function Price(): React.ReactElement {
       name: 'Bプラン：60分',
       price: '$60',
       services: [
-        'Aプランに加えて･･･',
-        'ナチュラルオイルで深いし',
-        '明成・足ツボも施術、体の葬・心のクセに個別アプローチ'
+        '事前カウンセリング込み',
+        'Aプランの施術に加えてナチュラルオイルで深い癒しを与えます。',
+        'さらに頭皮や足ツボも施術し、体と心のクセに個別でアプローチします。'
       ],
 
     },
@@ -28,22 +26,20 @@ function Price(): React.ReactElement {
       name: 'Cプラン：60分',
       price: '$80',
       services: [
-        '全砦を丁撃に租整・調整',
-        'ナチュラルオイルで深いリセット',
-        '調成・足ツボ・体の葬に合わせた個別アプローチ',
-        '慢性的な不調や拠を深くケプ',
-        '施術に体のサインど改芸アドバイス共有'
+        '事前カウンセリング込み',
+        '全身を丁寧に観察、調整してナチュラルオイルで深いリセットを行います。',
+        'さらに頭皮・足ツボ・体の癖に合わせた個別アプローチを行い、施術後に体のサインと改善のアドバイスを共有します。',
       ],
 
     },
     {
-      name: '施術者限定パーソナルトレーニング',
+      name: '施術者限定パーソナルトレーニング：40分',
       price: '$60',
       services: [
-        '施術をつけた方限定、一田チケント刺',
-        '施術で足た体の鋳や生滑祖様に合わせた個別プログラム',
-        '日線連成のための来乗亭アドバイス込み',
-        '対囲・オンライン・お糸トレ対応'
+        '施術を受けた方限定の一回チケット制です。',
+        '施術で発見した体の癖や生活習慣に合わせた個別プログラムを作成します。',
+        '目標達成ののための栄養学アドバイス込み。',
+        '対囲・オンライン・お家トレにも対応しています。'
       ],
 
     }
@@ -62,7 +58,7 @@ function Price(): React.ReactElement {
       </div>
 
       {/* Plans Card */}
-      <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 md:p-8">
+      <div className="bg-amber-50 border border-amber-200 p-6 md:p-8">
         {plans.map((plan, index) => (
           <div key={index}>
             {/* Plan Header */}
@@ -81,15 +77,11 @@ function Price(): React.ReactElement {
 
             {/* Services Section */}
             <div className="mb-4">
-              
-              <ul className="space-y-2">
+              <div className="text-sm md:text-base text-gray-700 space-y-2">
                 {plan.services.map((service, serviceIndex) => (
-                  <li key={serviceIndex} className="text-sm md:text-base text-gray-700 flex items-start">
-                    <span className="mr-2">・</span>
-                    <span>{service}</span>
-                  </li>
+                  <p key={serviceIndex}>{service}</p>
                 ))}
-              </ul>
+              </div>
             </div>
 
 
