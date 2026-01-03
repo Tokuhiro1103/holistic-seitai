@@ -12,7 +12,7 @@ function Sejutsu(): React.ReactElement {
       {/* Content - Two Column Layout */}
       <div className="flex flex-col md:flex-row mt-16">
         {/* Left Section - Image */}
-        <div className="w-full md:w-1/2 aspect-[550/270]">
+        <div className="w-full md:w-1/2 aspect-[550/270] order-2 md:order-1">
           <img 
             src={sejutsuImage} 
             alt="ホリスティック清体について" 
@@ -21,7 +21,7 @@ function Sejutsu(): React.ReactElement {
         </div>
 
         {/* Right Section - Text Area */}
-        <div className="w-full md:w-1/2 pl-8 md:pl-12 lg:pl-16 flex flex-col justify-center">
+        <div className="w-full md:w-1/2 pl-8 md:pl-12 lg:pl-16 flex flex-col justify-center order-1 md:order-2 mb-8 md:mb-0">
           <div className="text-gray-700 text-base md:text-lg space-y-4">
             <p>ホリスティック清体は、
 体の歪み・硬さ・呼吸・巡りを丁寧に観察しながら

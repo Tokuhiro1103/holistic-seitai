@@ -16,7 +16,7 @@ import Question from './components/Question'
 
 function App(): React.ReactElement {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen from-gray-50 via-white to-blue-50">
       <main className="pt-16">
         <Routes>
           <Route path="/" element={

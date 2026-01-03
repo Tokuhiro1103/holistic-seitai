@@ -4,7 +4,7 @@ import conceptImage from '../assets/photos/img_concept.jpg'
 
 function Concept(): React.ReactElement {
   return (
-    <div className="mt-64">
+    <div className="mt-32">
       {/* Heading - Centered at top */}
       <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-8 text-center">
         ホリスティック清体について
