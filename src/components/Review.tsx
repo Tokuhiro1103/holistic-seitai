@@ -59,14 +59,12 @@ function Review(): React.ReactElement {
             className="bg-gray-50 border border-gray-200 rounded-lg p-6 md:p-8 relative flex flex-col"
           >
             {/* Large Quote Mark */}
-            {review.showQuote && (
-              <div className="absolute top-4 left-4 text-gray-300 text-6xl md:text-7xl font-serif leading-none select-none">
-                "
-              </div>
-            )}
+            <div className="absolute top-4 left-4 text-gray-300 text-6xl md:text-7xl font-serif leading-none select-none">
+              "
+            </div>
             
             {/* Review Content */}
-            <div className={`${review.showQuote ? 'pl-8' : ''} flex flex-col flex-1`}>
+            <div className="pl-8 flex flex-col flex-1">
               <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4 flex-1">
                 {review.text}
               </p>
