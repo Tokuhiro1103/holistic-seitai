@@ -11,6 +11,9 @@ function Top(): React.ReactElement {
         backgroundRepeat: 'no-repeat'
       }}
     >
+      {/* White gradient overlay at bottom */}
+      <div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent pointer-events-none"></div>
+      
       <div className="relative z-10 text-white">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
           
