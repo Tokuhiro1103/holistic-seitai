@@ -10,41 +10,44 @@ function About(): React.ReactElement {
   return (
     <div className="space-y-24 mb-16">
       {/* Section 1: 自己紹介 + 写真1 */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-        {/* Left Text */}
-        <div className="order-2 md:order-1 space-y-6 text-gray-800">
-          <div>
-            <p className="text-xl md:text-2xl mb-2">自己紹介</p>
-            <p className="text-xl md:text-2xl font-semibold">YUKI UNO</p>
-            <p className="text-base md:text-lg text-gray-600 mt-2">Holistic Body Therapy Practitioner</p>
-          </div>
-          <div className="text-sm md:text-base space-y-2">
-            <p>幼少期から自然の中で過ごし、キャンプや野外活動を通して「人と自然のつながり」を体感して育つ。
+      <section>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">自己紹介</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+          {/* Left Text */}
+          <div className="order-2 md:order-1 space-y-6 text-gray-800">
+            <div>
+              <p className="text-xl md:text-2xl font-semibold">YUKI UNO</p>
+              <p className="text-base md:text-lg text-gray-600 mt-2">Holistic Body Therapy Practitioner</p>
+            </div>
+            <div className="text-sm md:text-base space-y-2">
+              <p>幼少期から自然の中で過ごし、キャンプや野外活動を通して「人と自然のつながり」を体感して育つ。
 母の影響でハーブやクレイ、アーユルヴェーダなど自然療法に親しみ早くから健康や身体への関心を持つ。<br />
-このページは私のこれまでの経験を含めた自己紹介やや現在の活動を始めた理由について書いています。</p>
+このページは私の現在に至るまでの経験を含めた自己紹介を書いています。</p>
+            </div>
           </div>
-        </div>
 
-        {/* Right Image */}
-        <div className="order-1 md:order-2 aspect-[350/270]">
-          <img
-            src={aboutImage1}
-            alt="自己紹介 YUKI"
-            className="w-full h-full object-contain"
-          />
+          {/* Right Image */}
+          <div className="order-1 md:order-2 aspect-[350/270]">
+            <img
+              src={aboutImage1}
+              alt="自己紹介 YUKI"
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
       </section>
 
-      
+      {/* Divider */}
+      <div className="border-t border-gray-300"></div>
 
       {/* Section 2: 自然の中で育った原体験 */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start ">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
-          <h2 className="text-2xl md:text-3xl font-bold">インドでの経験</h2>
+          <h2 className="text-xl md:text-2xl font-bold">インドでの経験</h2>
           <div className="text-sm md:text-base space-y-3">
             <p>18歳の頃、インド・ラダック地方で山岳地帯に滞在し、野生動物の観察・保全活動に参加。
-            雄大な自然と静かな時間の中で、「人は本来、もっと自然な状態で生きられる」という感覚を深める。</p>
+            雄大な自然と静かな時間の中で「人は本来、もっと自然な状態で生きられる」という感覚を深める。</p>
           </div>
         </div>
 
@@ -62,7 +65,7 @@ function About(): React.ReactElement {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
-          <h2 className="text-2xl md:text-3xl font-bold">地域ボランティア</h2>
+          <h2 className="text-xl md:text-2xl font-bold">地域ボランティア</h2>
           <div className="text-sm md:text-base space-y-3">
             <p>コロナ禍をきっかけに日本各地（伊豆諸島など）で地域ボランティアに携わり、
             人とのつながりや土地に根付いた文化に触れる経験を重ねる。</p>
@@ -83,9 +86,9 @@ function About(): React.ReactElement {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
-          <h2 className="text-2xl md:text-3xl font-bold">英語留学</h2>
+          <h2 className="text-xl md:text-2xl font-bold">英語留学</h2>
           <div className="text-sm md:text-base space-y-3">
-            <p>海外渡航再開後は、フィリピン・セブ島、マルタ島での英語留学を経験</p>
+            <p>海外渡航再開後は、フィリピン・セブ島・マルタ島での英語留学を経験</p>
           </div>
         </div>
 
@@ -103,7 +106,7 @@ function About(): React.ReactElement {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
-          <h2 className="text-2xl md:text-3xl font-bold">オーストラリアでCertificateを取得</h2>
+          <h2 className="text-xl md:text-2xl font-bold">オーストラリアでCertificateを取得</h2>
           <div className="text-sm md:text-base space-y-3">
             <p>オーストラリア・ブリスベンへ移住。
 現地の専門学校（TAFE）にて Fitness Certificate Ⅲ・Ⅳ を取得し、
@@ -127,12 +130,11 @@ function About(): React.ReactElement {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Text */}
         <div className="space-y-6 text-gray-800">
-          <h2 className="text-2xl md:text-3xl font-bold">ニュージーランドでの活動</h2>
+          <h2 className="text-xl md:text-2xl font-bold">ニュージーランドでの活動</h2>
           <div className="text-sm md:text-base space-y-3">
             <p>現在はニュージーランドを拠点に、
 旅をしながら整体師として活動。
-その人の体・心・環境を一つの"全体"として捉える
-ホリスティック清体を提供している。</p>
+その人の体・心・環境を一つの"全体"として捉える「ホリスティック清体」を提供している。</p>
           </div>
         </div>
 
