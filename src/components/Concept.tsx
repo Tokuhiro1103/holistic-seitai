@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import conceptImage from '../assets/photos/img_concept.jpg'
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 function Concept(): React.ReactElement {
+  const { ref, isVisible } = useScrollAnimation()
+
   return (
     <div className="mt-32">
       {/* Heading - Centered at top */}
@@ -36,7 +39,10 @@ function Concept(): React.ReactElement {
         </div>
 
         {/* Right Section - Image */}
-        <div className="w-full md:w-1/2 aspect-[550/270]">
+        <div 
+          ref={ref}
+          className={`w-full md:w-1/2 aspect-[550/270] fade-in-up ${isVisible ? 'visible' : ''}`}
+        >
           <img 
             src={conceptImage} 
             alt="自然と調和した整体" 

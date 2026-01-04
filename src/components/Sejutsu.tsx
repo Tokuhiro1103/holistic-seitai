@@ -1,7 +1,10 @@
 import React from 'react'
 import sejutsuImage from '../assets/photos/img-sejutsu.jpg'
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 function Sejutsu(): React.ReactElement {
+  const { ref, isVisible } = useScrollAnimation()
+
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
@@ -12,7 +15,10 @@ function Sejutsu(): React.ReactElement {
       {/* Content - Two Column Layout */}
       <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Image */}
-        <div className="w-full md:w-1/2 aspect-[550/270] order-2 md:order-1">
+        <div 
+          ref={ref}
+          className={`w-full md:w-1/2 aspect-[550/270] order-2 md:order-1 fade-in-up ${isVisible ? 'visible' : ''}`}
+        >
           <img 
             src={sejutsuImage} 
             alt="ホリスティック清体について" 

@@ -1,7 +1,10 @@
 import React from 'react'
 import recommendImage from '../assets/photos/img-recommmend.jpg'
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 function Why(): React.ReactElement {
+  const { ref, isVisible } = useScrollAnimation()
+
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
@@ -31,7 +34,10 @@ function Why(): React.ReactElement {
         </div>
 
         {/* Right Section - Image */}
-        <div className="w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270]">
+        <div 
+          ref={ref}
+          className={`w-3/5 mx-auto md:w-1/2 md:mx-0 aspect-[550/270] fade-in-up ${isVisible ? 'visible' : ''}`}
+        >
           <img 
             src={recommendImage} 
             alt="なぜこの整体をしているのか" 
