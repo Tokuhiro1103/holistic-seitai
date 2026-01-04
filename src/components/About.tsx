@@ -151,7 +151,7 @@ function About(): React.ReactElement {
       {/* Note Link Section */}
       <section className="mt-16 text-center">
         <a 
-          href="https://note.com/your-account" 
+          href="https://note.com/achatfitness001" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-blue-600 text-xl md:text-xl font-medium hover:text-gray-600 transition-colors duration-200 inline-flex items-center gap-2"

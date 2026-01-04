@@ -15,7 +15,7 @@ function Contact(): React.ReactElement {
         <div className="flex justify-center items-center gap-8">
           {/* Instagram Icon */}
           <a 
-            href="#" 
+            href="https://www.instagram.com/gladyuki_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
             className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-500 hover:opacity-80 transition-opacity"
             aria-label="Instagram"
           >
@@ -30,7 +30,7 @@ function Contact(): React.ReactElement {
 
           {/* Email Icon */}
           <a 
-            href="#" 
+            href="mailto:yukiuno1810@gmail.com" 
             className="flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-700 hover:bg-gray-800 transition-colors"
             aria-label="Email"
           >
