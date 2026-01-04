@@ -27,11 +27,11 @@ function About(): React.ReactElement {
           </div>
 
           {/* Right Image */}
-          <div className="order-1 md:order-2 aspect-[350/270]">
+          <div className="order-1 md:order-2 aspect-[350/270] flex items-center justify-center">
             <img
               src={aboutImage1}
               alt="自己紹介 YUKI"
-              className="w-full h-full object-contain"
+              className="max-w-full max-h-full object-contain shadow-md block"
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import profileImage from '../assets/photos/img_profile.jpg'
+import profileImage from '../assets/photos/img_about1.jpg'
 
 function Background(): React.ReactElement {
   return (

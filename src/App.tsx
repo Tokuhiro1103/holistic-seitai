@@ -17,7 +17,7 @@ import Navigation from './components/Navigation'
 
 function App(): React.ReactElement {
   return (
-    <div className="min-h-screen from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       <Navigation />
       <main className="pt-16">
         <Routes>
