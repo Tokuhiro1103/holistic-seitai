@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import Price from './components/Price'
 import Question from './components/Question'
 import Navigation from './components/Navigation'
+import Review from './components/Review'
 
 
 function App(): React.ReactElement {
@@ -29,6 +30,7 @@ function App(): React.ReactElement {
                   <Sejutsu />
                   <Why />
                   <Recommend />
+                  <Review />
                   <Background />
                   <Contact />
                 </Layout>
