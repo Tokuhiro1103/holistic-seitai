@@ -147,6 +147,19 @@ function About(): React.ReactElement {
           />
         </div>
       </section>
+
+      {/* Note Link Section */}
+      <section className="mt-16 text-center">
+        <a 
+          href="https://note.com/your-account" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 text-xl text-base md:text-xl font-medium hover:text-gray-600 transition-colors duration-200 inline-flex items-center gap-2"
+        >
+          <span>→</span>
+          <span>Noteで情報発信中！</span>
+        </a>
+      </section>
     </div>
   )
 }
