@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 function Footer(): React.ReactElement {
+  const { t } = useTranslation()
+
   return (
     <footer className="w-full py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-10">
@@ -8,7 +11,7 @@ function Footer(): React.ReactElement {
           
           <div className="text-center">
             <p className="text-sm text-gray-800">
-              © {new Date().getFullYear()} All rights reserved.
+              © {new Date().getFullYear()} {t('footer.rights')}
             </p>
           </div>
         </div>

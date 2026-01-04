@@ -1,22 +1,38 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 function Navigation(): React.ReactElement {
   const [isOpen, setIsOpen] = useState(false)
   const navigate = useNavigate()
+  const { t, i18n } = useTranslation()
 
   const handleLinkClick = (path: string) => {
     navigate(path)
     setIsOpen(false)
   }
 
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'ja' ? 'en' : 'ja'
+    i18n.changeLanguage(newLang)
+  }
+
   return (
-    <nav className="fixed top-4 right-4 z-50">
+    <nav className="fixed top-4 right-4 z-50 flex items-center gap-2">
+      {/* Language Toggle Button */}
+      <button
+        onClick={toggleLanguage}
+        className="w-12 h-12 flex items-center justify-center backdrop-blur-sm rounded-lg shadow-md hover:bg-white transition-colors duration-200 text-sm font-semibold text-gray-800"
+        aria-label="Toggle language"
+      >
+        {i18n.language === 'ja' ? 'EN' : 'JP'}
+      </button>
+
       {/* Hamburger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-12 h-12 flex flex-col justify-center items-center backdrop-blur-sm rounded-lg shadow-md hover:bg-white transition-colors duration-200"
-        aria-label="メニューを開く"
+        aria-label={t('nav.menu')}
       >
         <span
           className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 ${
@@ -57,19 +73,19 @@ function Navigation(): React.ReactElement {
             onClick={() => handleLinkClick('/')}
             className="w-full text-left px-6 py-4 text-gray-800 hover:bg-gray-100 transition-colors duration-200"
           >
-            ホーム
+            {t('nav.home')}
           </button>
           <button
             onClick={() => handleLinkClick('/about')}
             className="w-full text-left px-6 py-4 text-gray-800 hover:bg-gray-100 transition-colors duration-200 border-t border-gray-200"
           >
-            自己紹介
+            {t('nav.about')}
           </button>
           <button
             onClick={() => handleLinkClick('/price')}
             className="w-full text-left px-6 py-4 text-gray-800 hover:bg-gray-100 transition-colors duration-200 border-t border-gray-200"
           >
-            プラン
+            {t('nav.price')}
           </button>
         </div>
       </>

@@ -1,47 +1,45 @@
 import React from 'react'
-
+import { useTranslation } from 'react-i18next'
 
 function Price(): React.ReactElement {
+  const { t } = useTranslation()
+  
   const plans = [
     {
-      name: 'Aプラン：40分',
+      name: t('price.plans.planA.name'),
       price: '$40',
       services: [
-        '事前カウンセリング込み。',
-        '呼吸・巡り・姿勢を整えるプロ施術で凝りや不調の原因を丁寧にアプローチし、日常の疲れや緊張を確実にほぐしていきます。'
+        t('price.plans.planA.services.service1'),
+        t('price.plans.planA.services.service2')
       ],
-
     },
     {
-      name: 'Bプラン：60分',
+      name: t('price.plans.planB.name'),
       price: '$60',
       services: [
-        '事前カウンセリング込み',
-        'Aプランの施術に加えてナチュラルオイルで深い癒しを与えます。',
-        'さらに頭皮や足ツボも施術し、体と心のクセに個別でアプローチします。'
+        t('price.plans.planB.services.service1'),
+        t('price.plans.planB.services.service2'),
+        t('price.plans.planB.services.service3')
       ],
-
     },
     {
-      name: 'Cプラン：60分',
+      name: t('price.plans.planC.name'),
       price: '$80',
       services: [
-        '事前カウンセリング込み',
-        '全身を丁寧に観察、調整してナチュラルオイルで深いリセットを行います。',
-        'さらに頭皮・足ツボ・体の癖に合わせた個別アプローチを行い、施術後に体のサインと改善のアドバイスを共有します。',
+        t('price.plans.planC.services.service1'),
+        t('price.plans.planC.services.service2'),
+        t('price.plans.planC.services.service3')
       ],
-
     },
     {
-      name: '施術者限定PT：40分',
+      name: t('price.plans.planPT.name'),
       price: '$60',
       services: [
-        '施術を受けた方限定の一回チケット制パーソナルトレーニングです。',
-        '施術で発見した体の癖や生活習慣に合わせた個別プログラムを作成します。',
-        '目標達成ののための栄養学アドバイス込み。',
-        '対囲・オンライン・お家トレにも対応しています。'
+        t('price.plans.planPT.services.service1'),
+        t('price.plans.planPT.services.service2'),
+        t('price.plans.planPT.services.service3'),
+        t('price.plans.planPT.services.service4')
       ],
-
     }
   ]
 
@@ -50,7 +48,7 @@ function Price(): React.ReactElement {
       {/* Title Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-          施術プラン・料金
+          {t('price.title')}
         </h2>
         <div className="flex items-center justify-center my-4">
           <svg 
@@ -74,7 +72,7 @@ function Price(): React.ReactElement {
           </svg>
         </div>
         <p className="text-lg md:text-xl text-gray-600 mt-2">
-          Plans & Pricing
+          {t('price.subtitle')}
         </p>
       </div>
 

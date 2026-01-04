@@ -1,15 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import sejutsuImage from '../assets/photos/img-sejutsu.jpg'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 function Sejutsu(): React.ReactElement {
+  const { t } = useTranslation()
   const { ref, isVisible } = useScrollAnimation()
 
   return (
     <div className="mt-16">
       {/* Heading - Centered at top */}
       <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 text-center">
-        施術内容
+        {t('sejutsu.title')}
       </h2>
       
       {/* Content - Two Column Layout */}
@@ -21,7 +23,7 @@ function Sejutsu(): React.ReactElement {
         >
           <img 
             src={sejutsuImage} 
-            alt="ホリスティック清体について" 
+            alt={t('sejutsu.title')} 
             className="w-full h-full object-contain"
           />
         </div>
@@ -29,20 +31,7 @@ function Sejutsu(): React.ReactElement {
         {/* Right Section - Text Area */}
         <div className="w-full md:w-1/2 md:pl-12 lg:pl-16 flex flex-col justify-center order-1 md:order-2 mb-8 md:mb-0">
           <div className="text-gray-700 text-base md:text-lg space-y-4 text-left">
-            <p>ホリスティック清体は、
-体の歪み・硬さ・呼吸・巡りを丁寧に観察しながら
-その人の体と心の癖に合わせて整えていく施術です。<br />
-強く揉んだりバキバキ鳴らしたりはしません。<br />
-必要な場所に必要な分だけ触れ、即効性よりも「自分の状態に気づくこと」を大切にしています。<br />
-施術を受けた方からは
-「呼吸が深くなった」
-「体だけでなく気持ちも軽くなった」
-「眠りの質が変わった」
-そんな声をよくいただきます。<br />
-体と心は切り離せません。
-どちらかが疲れるともう片方にも必ず影響が出ます。
-だからこそ、部分ではなく“全体”を整える視点を大切にしています。</p>
-            
+            <p dangerouslySetInnerHTML={{ __html: t('sejutsu.text').replace(/\n/g, '<br />') }}></p>
           </div>
         </div>
       </div>

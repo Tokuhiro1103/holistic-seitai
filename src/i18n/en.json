@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "price": "Plans",
+    "menu": "Open menu"
+  },
+  "top": {
+    "title": "Return to Your Natural State",
+    "subtitle": "YUKI UNO's Website"
+  },
+  "concept": {
+    "title": "About Holistic Body Therapy",
+    "text1": "I believe that health is not just the absence of illness or pain. Health is a state where the body, mind, senses, and one's own being are in harmony, and energy flows naturally. While modern life is convenient and full of information, it's easy to drift away from listening to our own body and mind. Even when we feel unwell, we often put it off, saying 'I'm too busy' or 'It can't be helped.' But our bodies continue to send us signals.",
+    "text2": "My bodywork, 'Holistic Body Therapy,' is a time to notice those signals again."
+  },
+  "sejutsu": {
+    "title": "Treatment Content",
+    "text": "Holistic Body Therapy is a treatment that carefully observes the body's misalignments, stiffness, breathing, and circulation, and adjusts them according to each person's physical and mental patterns. I don't use forceful manipulation or cracking techniques. I touch only what's necessary, valuing 'awareness of one's own state' over immediate results. Clients often tell me: 'My breathing has deepened,' 'I feel lighter both physically and emotionally,' 'The quality of my sleep has changed.' The body and mind cannot be separated. When one is tired, it inevitably affects the other. That's why I value a holistic perspective that addresses the whole, not just parts."
+  },
+  "why": {
+    "title": "Why I Practice This Bodywork",
+    "text": "Since childhood, I've seen many people close to me struggle with illness and discomfort. 'I wish they could live more energetically and joyfully'—that feeling is my origin. After studying human anatomy and movement in Australia and working with many people's bodies, I strongly felt that the same treatment or exercise has different effects on different people. Not just the body's condition, but lifestyle, mindset, and mental patterns greatly influence the results. This experience led to my current treatment style. My role is not to cure, but to create opportunities for awareness. How to adjust from there is up to each person. I support that first step of facing one's own body and mind."
+  },
+  "recommend": {
+    "title": "Recommended For",
+    "items": {
+      "item1": "Those experiencing chronic fatigue or discomfort",
+      "item2": "Those who feel their breathing is shallow or sleep is light",
+      "item3": "Those who feel something is off, but not enough to see a doctor",
+      "item4": "Those who want to address both body and mind",
+      "item5": "Those who want to properly understand their own condition"
+    },
+    "button": "View Plans"
+  },
+  "background": {
+    "title": "About Me",
+    "name": "Yuki Uno",
+    "description": "Based in New Zealand, I travel while working as a bodywork therapist. I provide Holistic Body Therapy, which views each person's body, mind, and environment as one 'whole.'",
+    "link": "Learn More"
+  },
+  "contact": {
+    "thanks": "Thank you for visiting",
+    "message": "For treatment requests or inquiries, please contact us via Instagram or email"
+  },
+  "price": {
+    "title": "Treatment Plans & Pricing",
+    "subtitle": "Plans & Pricing",
+    "plans": {
+      "planA": {
+        "name": "Plan A: 40 minutes",
+        "services": {
+          "service1": "Includes pre-treatment consultation.",
+          "service2": "Professional treatment that addresses the root causes of stiffness and discomfort by adjusting breathing, circulation, and posture, effectively releasing daily fatigue and tension."
+        }
+      },
+      "planB": {
+        "name": "Plan B: 60 minutes",
+        "services": {
+          "service1": "Includes pre-treatment consultation",
+          "service2": "In addition to Plan A treatment, provides deep healing with natural oils.",
+          "service3": "Also includes scalp and foot reflexology, with individualized approach to physical and mental patterns."
+        }
+      },
+      "planC": {
+        "name": "Plan C: 60 minutes",
+        "services": {
+          "service1": "Includes pre-treatment consultation",
+          "service2": "Carefully observes and adjusts the entire body, performing a deep reset with natural oils.",
+          "service3": "Includes individualized approach for scalp, foot reflexology, and body patterns, with post-treatment sharing of body signals and improvement advice."
+        }
+      },
+      "planPT": {
+        "name": "Personal Training (Treatment Clients Only): 40 minutes",
+        "services": {
+          "service1": "Single-session personal training ticket system, exclusively for those who have received treatment.",
+          "service2": "Creates an individualized program based on body patterns and lifestyle habits discovered during treatment.",
+          "service3": "Includes nutritional advice for goal achievement.",
+          "service4": "Available in-person, online, or at-home training."
+        }
+      }
+    }
+  },
+  "question": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "FAQ",
+    "faqs": {
+      "faq1": {
+        "question": "Where can I receive treatment?",
+        "answer": "We primarily conduct treatments in safe parks and outdoor spaces (e.g., Albert Park). Being outdoors allows for a special experience of aligning body and mind while feeling nature. For those with allergies or difficulty with grass treatments, we can flexibly accommodate your needs. Please feel free to consult with us."
+      },
+      "faq2": {
+        "question": "What should I wear during treatment?",
+        "answer": "Since treatments are performed with clothing on, any comfortable, easy-to-move-in clothing is fine. We use towels as needed to ensure appropriate coverage."
+      },
+      "faq3": {
+        "question": "How much of my body will be touched?",
+        "answer": "Treatment is performed within the scope of adjusting muscles, joints, and posture. We do not touch sensitive areas or any areas that cause discomfort. If you feel any discomfort or unease during treatment, please let us know immediately."
+      },
+      "faq4": {
+        "question": "Is treatment possible at home or indoors?",
+        "answer": "Yes, it's possible. We offer home visits and treatments at your accommodation. However, for the safety and peace of mind of both therapist and client, we recommend maintaining an environment that is not completely closed (e.g., keeping the door slightly open). Please see 'About Home Treatments' below for details."
+      },
+      "faq5": {
+        "question": "Can I request treatment in suburban areas?",
+        "answer": "We primarily operate within the CBD (city center) and areas accessible by public transport. For distant visits or indoor treatments, we may charge an additional transportation fee for safety and convenience."
+      },
+      "faq6": {
+        "question": "Will treatment be cancelled due to weather?",
+        "answer": "Outdoor treatments are affected by weather. In case of bad weather, we may reschedule for another day or move to an indoor space for safety reasons. Discussing backup dates in advance helps ensure a smooth experience."
+      },
+      "faq7": {
+        "question": "Does treatment quality differ between outdoor and indoor?",
+        "answer": "We provide professional treatment for all plans. Through pre-treatment consultation and careful observation of body and mind, all Plans A/B/C maintain the same quality, so you can use them with confidence."
+      }
+    },
+    "privacy": {
+      "title": "About Home Treatments (For Safety and Peace of Mind)",
+      "text1": "When conducting treatments at home, we value considerations to protect the safety of both therapist and client.",
+      "text2": "As part of this, we recommend keeping the room door slightly open during treatment to maintain some visibility. This is an important rule for both parties' peace of mind, regardless of gender, to prevent misunderstandings or issues.",
+      "text3": "While respecting privacy, we strive to create an environment that is not completely closed.",
+      "text4": "Your peace of mind is our top priority, so please feel free to consult about any concerns.",
+      "text5": "Thank you for your understanding and cooperation."
+    }
+  },
+  "review": {
+    "title": "Client Voices",
+    "reviews": {
+      "review1": {
+        "name": "M",
+        "gender": "Female",
+        "text": "The bodywork in nature was very impressive. Through the treatment with oil and over clothing, it felt more like having a dialogue with my body rather than just 'loosening' it. I was surprised that the places where the hands stopped were exactly the parts I had been concerned about. After the treatment, my mind became calm, and it was like a time to remember the self I had forgotten."
+      },
+      "review2": {
+        "name": "E",
+        "gender": "Female",
+        "text": "Even in a short time, I felt that just by touching my body, my inner state was understood. Both my mind and body felt lighter, and I was reminded of 'wanting to cherish this feeling.'"
+      },
+      "review3": {
+        "name": "T",
+        "gender": "Male",
+        "text": "It was a great opportunity to reconsider my own body. Through dialogue, explaining my body's condition using a tree as a metaphor was easy to understand and made perfect sense. I want to incorporate awareness of breathing and self-care into my daily life."
+      },
+      "review4": {
+        "name": "T",
+        "gender": "Female",
+        "text": "I've received many treatments before, but this was very careful and the force reached exactly where it was needed. I feel the quality of the hands is different. I think this person values their natural-born sense."
+      },
+      "review5": {
+        "name": "S",
+        "gender": "Female",
+        "text": "From the first interaction, it was careful and reassuring. Receiving treatment in nature while listening to birds was very relaxing. The treatment was gentle, and I felt it gradually taking effect afterward, allowing me to stay energetic even during busy times."
+      },
+      "review6": {
+        "name": "N",
+        "gender": "Female",
+        "text": "I realized I had been putting myself on the back burner for the past year. I feel this treatment became a turning point. I was surprised that my current state was accurately conveyed without any explanation. It was a time when both my mind and body were aligned."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "name": "YUKI UNO",
+    "subtitle": "Holistic Body Therapy Practitioner",
+    "intro": "I grew up spending time in nature from childhood, experiencing the connection between people and nature through camping and outdoor activities. Influenced by my mother, I became familiar with herbs, clay, Ayurveda, and other natural therapies, developing an early interest in health and the body. This page contains my self-introduction, including my experiences up to the present.",
+    "sections": {
+      "india": {
+        "title": "Experience in India",
+        "text": "At age 18, I stayed in the mountainous region of Ladakh, India, participating in wildlife observation and conservation activities. In the midst of magnificent nature and quiet time, I deepened my sense that 'people can live in a more natural state.'"
+      },
+      "volunteer": {
+        "title": "Community Volunteering",
+        "text": "Triggered by the pandemic, I engaged in community volunteering in various parts of Japan (such as the Izu Islands), accumulating experiences connecting with people and cultures rooted in the land."
+      },
+      "study": {
+        "title": "English Study Abroad",
+        "text": "After international travel resumed, I experienced English study abroad in the Philippines, Cebu Island, and Malta."
+      },
+      "certificate": {
+        "title": "Obtained Certificate in Australia",
+        "text": "I moved to Brisbane, Australia. At a local technical college (TAFE), I obtained Fitness Certificate III & IV, supporting over 30 people from office workers to amateur athletes. 'Even if you only adjust the body, people don't truly change'—from this realization, I deepened my perspective of seeing people not just through anatomy and kinesiology, but including the mind and life background."
+      },
+      "nz": {
+        "title": "Activities in New Zealand",
+        "text": "Currently based in New Zealand, I travel while working as a bodywork therapist. I provide 'Holistic Body Therapy,' which views each person's body, mind, and environment as one 'whole.'"
+      }
+    },
+    "note": "Sharing information on Note!"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
+

@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 function Recommend(): React.ReactElement {
+  const { t } = useTranslation()
   const recommendations = [
-    '慢性的な疲れや違和感がある',
-    '呼吸が浅い、眠りが浅いと感じる',
-    '病院に行くほどではないけれど、何かが整っていない感覚がある',
-    '体だけでなく、心も含めて整えたい',
-    '自分の状態をきちんと理解したい'
+    t('recommend.items.item1'),
+    t('recommend.items.item2'),
+    t('recommend.items.item3'),
+    t('recommend.items.item4'),
+    t('recommend.items.item5')
   ]
 
   return (
@@ -17,7 +19,7 @@ function Recommend(): React.ReactElement {
         {/* Title Section */}
         <div className="text-center mb-6">
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-            こんな方におすすめです
+            {t('recommend.title')}
           </h2>
           <div className="flex items-center justify-center my-4">
             <div className="flex-1 border-t border-gray-300"></div>
@@ -46,7 +48,7 @@ function Recommend(): React.ReactElement {
             to="/price"
             className="inline-block bg-lime-500 hover:bg-lime-600 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-200"
           >
-            プランを見る
+            {t('recommend.button')}
           </Link>
         </div>
       </div>

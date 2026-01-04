@@ -1,42 +1,39 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 function Review(): React.ReactElement {
+  const { t } = useTranslation()
+  
   const reviews = [
     {
-      name: 'Mさん',
-      gender: '女性',
-      text: '自然の中での清体はとても印象的でした。オイルと服の上からの施術を通して、身体を「ほぐす」というより身体と対話してもらった感覚です。触れる手が止まる場所が、まさに自分でも気になっていた部分で驚きました。施術後は心が静まり、忘れていた自分を思い出すような時間でした。',
-      showQuote: true
+      name: t('review.reviews.review1.name'),
+      gender: t('review.reviews.review1.gender'),
+      text: t('review.reviews.review1.text')
     },
     {
-      name: 'Eさん',
-      gender: '女性',
-      text: '短い時間なのに、身体に触れただけで内面の状態まで理解してもらえた感覚がありました。気持ちも身体も楽になり「こういう感覚を大切にしたい」と思い出させてもらえました。',
-      showQuote: true
+      name: t('review.reviews.review2.name'),
+      gender: t('review.reviews.review2.gender'),
+      text: t('review.reviews.review2.text')
     },
     {
-      name: 'Tさん',
-      gender: '男性',
-      text: '自分の身体を改めて見直すとても良いきっかけになりました。対話を通して、身体の状態を木に例えて説明してくれたのが分かりやすくすっと腑に落ちました。呼吸やセルフケアを意識して日常に取り入れていこうと思います。',
-      showQuote: true
+      name: t('review.reviews.review3.name'),
+      gender: t('review.reviews.review3.gender'),
+      text: t('review.reviews.review3.text')
     },
     {
-      name: 'Tさん',
-      gender: '女性',
-      text: 'これまで多くの施術を受けてきましたが、とても丁寧で必要なところにしっかり力が届く施術でした。手の質が違うと感じます。生まれ持った感覚を大切にされている方だと思いました。',
-      showQuote: false
+      name: t('review.reviews.review4.name'),
+      gender: t('review.reviews.review4.gender'),
+      text: t('review.reviews.review4.text')
     },
     {
-      name: 'Sさん',
-      gender: '女性',
-      text: '最初のやり取りから丁寧で安心感がありました。自然の中で鳥の声を聞きながら受ける施術はとてもリラックスできました。施術は優しく、終わった後にじわじわ効いてくる感覚があり忙しい時期でも元気に過ごせました。',
-      showQuote: false
+      name: t('review.reviews.review5.name'),
+      gender: t('review.reviews.review5.gender'),
+      text: t('review.reviews.review5.text')
     },
     {
-      name: 'Nさん',
-      gender: '女性',
-      text: 'ここ1年自分のことを後回しにしていたと気づかされました。この施術が一つの転機になったように感じています。何も説明していないのに、今の状態を的確に伝えられたことに驚きました。心と身体を同時に整えてもらえた時間でした。',
-      showQuote: false
+      name: t('review.reviews.review6.name'),
+      gender: t('review.reviews.review6.gender'),
+      text: t('review.reviews.review6.text')
     }
   ]
 
@@ -45,7 +42,7 @@ function Review(): React.ReactElement {
       {/* Title Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-          お客様の声
+          {t('review.title')}
         </h2>
         
         

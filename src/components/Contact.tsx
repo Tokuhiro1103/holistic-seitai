@@ -1,14 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 function Contact(): React.ReactElement {
+  const { t } = useTranslation()
+
   return (
     <div className="mt-8 py-16">
       <div className="text-center">
         <p className="text-lg md:text-xl text-gray-700 mb-6 text-bold">
-          ご覧いただきありがとうございます
+          {t('contact.thanks')}
         </p>
         <p className="text-base md:text-lg text-gray-600 mb-8">
-          施術の依頼やお問い合わせはインスタかメールからご連絡ください
+          {t('contact.message')}
         </p>
         
         {/* Icons */}
