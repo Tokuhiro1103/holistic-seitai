@@ -154,7 +154,7 @@ function About(): React.ReactElement {
           href="https://note.com/your-account" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="text-blue-600 text-xl text-base md:text-xl font-medium hover:text-gray-600 transition-colors duration-200 inline-flex items-center gap-2"
+          className="text-blue-600 text-xl md:text-xl font-medium hover:text-gray-600 transition-colors duration-200 inline-flex items-center gap-2"
         >
           <span>→</span>
           <span>Noteで情報発信中！</span>

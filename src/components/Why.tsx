@@ -13,7 +13,7 @@ function Why(): React.ReactElement {
       <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Text Area */}
         <div className="w-full md:w-1/2 md:pr-12 lg:pr-16 flex flex-col justify-center">
-          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3 text-center md:text-left">
+          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3 text-left">
             <p>幼い頃から身近な人の病気や不調を多く見てきました。
 「もっと元気に楽しく生きられたらいいのに」
 その想いが僕の原点です。<br />

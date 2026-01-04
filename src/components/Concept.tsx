@@ -14,7 +14,7 @@ function Concept(): React.ReactElement {
       <div className="flex flex-col md:flex-row mt-8">
         {/* Left Section - Text Area */}
         <div className="w-full md:w-1/2 md:pr-12 lg:pr-16 flex flex-col justify-center">
-          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3 text-center md:text-left">
+          <div className="text-gray-700 text-base md:text-lg mb-8 space-y-3 text-left">
             <p>人の健康とは、
             ただ病気がないことでも痛みが取れることだけでもないと僕は考えています。<br />
             体・心・感覚、そしてその人自身の在り方、
