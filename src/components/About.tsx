@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import aboutImage1 from '../assets/photos/img_about1.jpg'
 import aboutImage2 from '../assets/photos/img_about2.jpg'
 import aboutImage3 from '../assets/photos/img_about3.jpg'
-import aboutImage4 from '../assets/photos/img_about4.JPG'
+import aboutImage4 from '../assets/photos/img_about4.png'
 import aboutImage5 from '../assets/photos/img_about5.jpg'
 import aboutImage6 from '../assets/photos/img_about6.jpg'
 
