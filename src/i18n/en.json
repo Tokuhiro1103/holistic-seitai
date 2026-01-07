@@ -55,7 +55,7 @@
         }
       },
       "planB": {
-        "name": "Plan B: 60 minutes",
+        "name": "Plan B: 40 minutes",
         "services": {
           "service1": "Includes pre-treatment consultation",
           "service2": "In addition to Plan A treatment, provides deep healing with natural oils.",

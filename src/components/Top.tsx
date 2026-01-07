@@ -18,12 +18,10 @@ function Top(): React.ReactElement {
       <div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent pointer-events-none"></div>
       
       <div className="relative z-10 text-white">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
           {t('top.title')}
         </h1>
-        <p className="text-2xl md:text-2xl lg:text-3xl drop-shadow-md">
-          {t('top.subtitle')}
-        </p>
+        
       </div>
     </section>
   )
